@@ -14,7 +14,7 @@ setuptools.setup(
     url='http://github.com/lisa-groundhog/GroundHog/',
     install_requires=['numpy',
                       'Theano',],
-    dependency_links=['git+http://github.com/Theano/Theano.git#egg=Theano',],
+    dependency_links=['http://github.com/Theano/Theano.git#egg=Theano',],
     classifiers=['Development Status :: 3 - Alpha',
                  'Intended Audience :: Science/Research',
                  'License :: OSI Approved :: BSD License',
